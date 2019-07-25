@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-public class LoginPage extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class LoginPage extends AppCompatActivity {
     EditText id,password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
