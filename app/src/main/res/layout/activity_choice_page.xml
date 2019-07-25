@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChoicePage">
+    tools:context=".ChoicePage"
+    android:background="@drawable/button_2">
 
     <TextView
         android:id="@+id/storedId"
@@ -40,9 +41,12 @@
         android:id="@+id/driver"
         android:layout_width="160dp"
         android:layout_height="80dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginLeft="96dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/button_2"
+
+
         android:text="운전자"
         android:onClick="selectDriver"
         app:layout_constraintStart_toStartOf="parent"

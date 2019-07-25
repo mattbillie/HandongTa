@@ -3,10 +3,11 @@
     package="com.LoHoon.HandongTa">
 
     <application
-        android:icon="@drawable/model"
+        android:icon="@drawable/tapp_icon"
+
         android:allowBackup="true"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_launcher_background"
+        android:roundIcon="@drawable/tapp_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".AddListPage"></activity>
