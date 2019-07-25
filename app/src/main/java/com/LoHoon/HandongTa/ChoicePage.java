@@ -3,12 +3,14 @@ package com.LoHoon.HandongTa;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.LoHoon.HandongTa.Main.MainPage;
 
 public class ChoicePage extends AppCompatActivity {
     TextView t1,t2;
@@ -47,10 +49,16 @@ public class ChoicePage extends AppCompatActivity {
         }
     }
 
-    /*public void selectDriver(View view) {
-        Intent intent3 = new Intent(this,MainPage.class);
+    public void selectDriver(View view) {
+        Intent intent3 = new Intent(this, MainPage.class);
         if(bt1.getText().toString().equals("x")){
-            startActivity(intent3,code+1);
+            startActivity(intent3);
         }
-    }*/
+        else Toast.makeText(this,"등록을 완료해주세요.", Toast.LENGTH_SHORT).show();
+    }
+    public void selectBoarder(View view) {
+        Intent intent3 = new Intent(this,MainPage.class);
+        startActivity(intent3);
+    }
+
 }

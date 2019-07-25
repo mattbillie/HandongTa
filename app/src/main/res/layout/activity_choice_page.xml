@@ -64,6 +64,7 @@
         android:layout_marginBottom="276dp"
         android:background="@drawable/model"
         android:text="탑승자"
+        android:onClick="selectBoarder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.374"
