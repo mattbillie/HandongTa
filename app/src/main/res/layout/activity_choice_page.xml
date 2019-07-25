@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ChoicePage"
-    android:background="@drawable/button_2">
+    android:background="@drawable/ceic">
 
     <TextView
         android:id="@+id/storedId"
@@ -44,7 +44,7 @@
         android:layout_marginStart="88dp"
         android:layout_marginLeft="88dp"
         android:layout_marginTop="192dp"
-        android:background="@drawable/button_2"
+        android:background="@drawable/ceic"
 
 
         android:text="운전자"
@@ -62,7 +62,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="276dp"
-        android:background="@drawable/model"
+        android:background="@drawable/ceic"
         android:text="탑승자"
         android:onClick="selectBoarder"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,6 +84,7 @@
         android:layout_marginBottom="8dp"
         android:onClick="onClick"
         android:text="등록하기"
+        android:background="@drawable/ceic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.258"
