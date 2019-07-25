@@ -33,13 +33,13 @@
         android:layout_height="43dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:text="ID"
         android:textSize="15dp"
         app:layout_constraintEnd_toStartOf="@+id/enterId"
-        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name" />
 
